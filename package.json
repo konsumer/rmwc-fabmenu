@@ -2,22 +2,22 @@
   "name": "rmwc-fabmenu",
   "version": "0.0.5",
   "description": "",
+  "keywords": [],
   "main": "docs/rmwc-fabmenu.min.js",
-  "scripts": {
-    "build": "webpack",
-    "prepublish": "npm run build"
-  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/konsumer/rmwc-fabmenu.git"
   },
-  "keywords": [],
-  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/konsumer/rmwc-fabmenu/issues"
   },
   "homepage": "https://github.com/konsumer/rmwc-fabmenu#readme",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
   "babel": {
     "presets": [
       "env",

@@ -52,7 +52,6 @@ export default class FabMenu extends Component {
     this.state = { open: false }
     this.onMouseEnter = this.onMouseEnter.bind(this)
     this.onMouseLeave = this.onMouseLeave.bind(this)
-    this.style = makeStyle(props)
   }
 
   onMouseEnter (e) { this.setState({open: true}) }
