@@ -1,7 +1,8 @@
+<img src="action.gif" align="right"/>
+
 A quick & simple `<Fab>` menu for [rmwc](https://jamesmfriedman.github.io/rmwc/)
 
 You can see it in action [here](http://konsumer.js.org/rmwc-fabmenu/).
-
 
 ## installation
 
