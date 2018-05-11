@@ -31,5 +31,5 @@ export default ({onClickSettings, onClickAdd}) => (
 ```
 openIcon:   'edit'  - icon to show in button when the menu is open
 closedIcon: 'add'   - icon to show in button when it's closed
-direction:  'right' - direction: left, reight, top, bottom
+direction:  'right' - left, right, top, bottom
 ```
