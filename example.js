@@ -59,7 +59,7 @@ const App = () => (
         <article className='markdown-body'><p>A quick &amp; simple <code>&lt;Fab&gt;</code> menu for <a href='https://jamesmfriedman.github.io/rmwc/' rel='nofollow'>rmwc</a></p>
           <h2>
             <a id='user-content-installation' className='anchor' href='#installation' aria-hidden='true'><span aria-hidden='true' className='octicon octicon-link' /></a>installation</h2>
-          <div className='highlight highlight-source-shell'><pre>npm i</pre></div>
+          <div className='highlight highlight-source-shell'><pre>npm i rmwc-fabmenu</pre></div>
           <p><a href='https://github.com/konsumer/rmwc-fabmenu'>rmwc-fabmenu</a> is a library for making a <code>&lt;Fab /&gt;</code> menu, like the sort you see on Google Inbox for composing a new email. It utilizes <a href='https://jamesmfriedman.github.io/rmwc/' rel='nofollow'>rmwc</a>, so it's useful if you are already including that in your app.</p>
           <h3>
             <a id='user-content-usage' className='anchor' href='#usage' aria-hidden='true'><span aria-hidden='true' className='octicon octicon-link' /></a>usage</h3>
