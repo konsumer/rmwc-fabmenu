@@ -9,7 +9,7 @@ You can see it in action [here](http://konsumer.js.org/rmwc-fabmenu/).
 npm i
 ```
 
-[rmwc-fabmenu](https://github.com/konsumer/rmwc-fabmenu) is a library for making a `<Fab />` menu, like the sort you see on Google Inbox for composing a new email. It utilizes [rmwc](https://jamesmfriedman.github.io/rmwc/), so it's useful if you are already including that in your app.
+This is a library for making a `<Fab />` menu, like the sort you see on Google Inbox for composing a new email. It utilizes [rmwc](https://jamesmfriedman.github.io/rmwc/), so it's useful if you are already including that in your app.
 
 ### usage
 
