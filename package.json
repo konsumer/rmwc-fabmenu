@@ -1,0 +1,39 @@
+{
+  "name": "rmwc-fabmenu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/rmwc-fabmenu.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/rmwc-fabmenu/issues"
+  },
+  "homepage": "https://github.com/konsumer/rmwc-fabmenu#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "stage-3",
+      "react"
+    ]
+  },
+  "files": [
+    "rmwc-fabmenu.min.js"
+  ],
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
