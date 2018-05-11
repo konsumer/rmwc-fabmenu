@@ -86,6 +86,3 @@ typings/
 
 # next.js build output
 .next
-
-# built file
-docs/rmwc-fabmenu.min.js
