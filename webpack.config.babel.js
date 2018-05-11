@@ -4,7 +4,7 @@ export default {
   mode: 'production',
   entry: resolve(__dirname, 'src/index.js'),
   output: {
-    path: resolve(__dirname, 'docs'),
+    path: __dirname,
     filename: 'rmwc-fabmenu.min.js',
     libraryTarget: 'umd', // 'commonjs2'
     library: 'FabMenu'

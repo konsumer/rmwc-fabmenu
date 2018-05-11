@@ -1,5 +1,7 @@
 A quick & simple `<Fab>` menu for [rmwc](https://jamesmfriedman.github.io/rmwc/)
 
+You can see it in action [here](http://konsumer.js.org/rmwc-fabmenu/).
+
 
 ## installation
 
@@ -23,4 +25,10 @@ export default ({onClickSettings, onClickAdd}) => (
 )
 ```
 
+#### props
 
+```
+openIcon:   'edit'  - icon to show in button when the menu is open
+closedIcon: 'add'   - icon to show in button when it's closed
+direction:  'right' - direction: left, reight, top, bottom
+```
