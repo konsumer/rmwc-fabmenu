@@ -26,7 +26,7 @@
     ]
   },
   "files": [
-    "docs/rmwc-fabmenu.min.js"
+    "rmwc-fabmenu.min.js"
   ],
   "devDependencies": {
     "babel-loader": "^7.1.4",
