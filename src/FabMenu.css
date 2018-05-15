@@ -1,0 +1,58 @@
+.FabMenu {
+  position: relative;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FabMenu .trigger i {
+  transform: rotate(90deg);
+}
+
+.FabMenu.open .trigger i {
+  transform: rotate(0);
+}
+
+.FabMenu .menu {
+  position: absolute;
+  display: flex;
+}
+
+.FabMenu.right .menu {
+  left: 55px;
+}
+
+.FabMenu.right .menu > * {
+  margin-left: 5px;
+}
+
+.FabMenu.left .menu {
+  right: 55px;
+  direction: rtl;
+}
+
+.FabMenu.left .menu > * {
+  margin-right: 5px;
+}
+
+.FabMenu.down .menu {
+  top: 82px;
+  transform: rotate(90deg);
+}
+
+.FabMenu.down .menu > * {
+  margin-left: 5px;
+  transform: rotate(-90deg);
+}
+
+.FabMenu.up .menu {
+  bottom: 98px;
+  left: -72px;
+  transform: rotate(-90deg);
+}
+
+.FabMenu.up .menu > * {
+  margin-right: 5px;
+  transform: rotate(90deg);
+}
