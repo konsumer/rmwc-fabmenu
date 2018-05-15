@@ -35,22 +35,22 @@ const App = () => (
       <B aligItems='center'>
         <B aligItems='center'>
           <FabMenu>
-            <Fab mini style={{backgroundColor: '#c62828'}}>delete</Fab>
+            <Fab mini theme='danger'>delete</Fab>
             <Fab mini>settings</Fab>
           </FabMenu>
           <T u='headline3'>Demo</T>
           <FabMenu direction='left'>
-            <Fab mini style={{backgroundColor: '#c62828'}}>delete</Fab>
+            <Fab mini theme='danger'>delete</Fab>
             <Fab mini>settings</Fab>
           </FabMenu>
 
           <FabMenu direction='up' style={{position: 'absolute', 'bottom': 10, right: 0}}>
-            <Fab mini style={{backgroundColor: '#c62828'}}>delete</Fab>
+            <Fab mini theme='danger'>delete</Fab>
             <Fab mini>settings</Fab>
           </FabMenu>
 
           <FabMenu direction='down'>
-            <Fab mini style={{backgroundColor: '#c62828'}}>delete</Fab>
+            <Fab mini theme='danger'>delete</Fab>
             <Fab mini>settings</Fab>
           </FabMenu>
         </B>
