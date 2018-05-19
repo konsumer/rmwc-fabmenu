@@ -86,3 +86,7 @@ typings/
 
 # next.js build output
 .next
+
+# built files
+.demo
+dist

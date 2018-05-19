@@ -1,0 +1,9 @@
+/**
+ * You should have this in your app already for RMWC
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@import url("https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css");

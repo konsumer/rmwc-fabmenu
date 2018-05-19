@@ -1,26 +1,27 @@
 .FabMenu {
   position: relative;
-  margin: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 
 .FabMenu .trigger i {
   transform: rotate(90deg);
+  transition: transform 0.5s ease;
 }
 
 .FabMenu.open .trigger i {
-  transform: rotate(0);
+  transform: rotate(0deg);
 }
 
 .FabMenu .menu {
   position: absolute;
   display: flex;
+  align-items: center;
 }
 
 .FabMenu.right .menu {
-  left: 55px;
+  left: 100%;
+  top: 0;
+  height: 100%;
 }
 
 .FabMenu.right .menu > * {
@@ -28,8 +29,9 @@
 }
 
 .FabMenu.left .menu {
-  right: 55px;
-  direction: rtl;
+  right: 100%;
+  top: 0;
+  flex-direction: row-reverse;
 }
 
 .FabMenu.left .menu > * {
@@ -37,22 +39,19 @@
 }
 
 .FabMenu.down .menu {
-  top: 82px;
-  transform: rotate(90deg);
+  flex-direction: column;
 }
 
 .FabMenu.down .menu > * {
-  margin-left: 5px;
-  transform: rotate(-90deg);
+  margin-top: 5px;
 }
 
 .FabMenu.up .menu {
-  bottom: 98px;
-  left: -72px;
-  transform: rotate(-90deg);
+  left: 0;
+  bottom: 100%;
+  flex-direction: column-reverse;
 }
 
 .FabMenu.up .menu > * {
-  margin-right: 5px;
-  transform: rotate(90deg);
+  margin-bottom: 5px;
 }
