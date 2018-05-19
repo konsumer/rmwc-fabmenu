@@ -16,7 +16,10 @@ This is a library for making a `<Fab />` menu, like the sort you see on Google I
 
 ```jsx
 import React from 'react'
+
 import FabMenu from 'rmwc-fabmenu'
+import 'rmwc-fabmenu/FabMenu.css'
+
 import { Fab } from 'rmwc/Fab'
 
 export default ({onClickSettings, onClickAdd}) => (
@@ -25,10 +28,4 @@ export default ({onClickSettings, onClickAdd}) => (
     <Fab mini onClick={onClickAdd}>add</Fab>
   </FabMenu>
 )
-```
-
-Now, put some CSS that looks like `FabMenu.css` in your own project, or do this, if you have webpack setup for css:
-
-```js
-import 'rmwc-fabmenu/FabMenu.css'
 ```
