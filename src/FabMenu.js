@@ -12,15 +12,15 @@ class FabMenu extends Component {
 
   onMouseEnter (e) { this.setState({ open: true }) }
   onMouseLeave (e) { this.setState({ open: false }) }
-  setOpen (open) { this.setState({ open }) }
+  onTouchStart (e) { this.setState({ open: !this.state.open }) }
 
   render () {
     const { open } = this.state
     const { openIcon, closedIcon, className, direction, style, ...props } = this.props
-    const { onMouseEnter, onMouseLeave } = this
+    const { onMouseEnter, onMouseLeave, onTouchStart } = this
     const topClass = `FabMenu ${className || ''} ${open ? 'open' : 'closed'} ${direction}`
     return (
-      <div style={style} className={topClass} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+      <div style={style} className={topClass} onTouchStart={onTouchStart} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
         <Fab {...props} className='trigger'>{ open ? openIcon : closedIcon }</Fab>
         <div className='menu'>
           {React.Children.map(this.props.children, el => React.cloneElement(el, { exited: !open }))}

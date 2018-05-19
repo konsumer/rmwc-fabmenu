@@ -1,7 +1,7 @@
 {
   "name": "rmwc-fabmenu",
   "version": "0.0.10",
-  "description": "",
+  "description": "A menu with a RMWC Fab trigger",
   "module": "dist-es6/index",
   "scripts": {
     "start": "start-storybook -p 9001",
