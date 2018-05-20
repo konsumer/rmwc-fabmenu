@@ -10,7 +10,7 @@
   "scripts": {
     "start": "start-storybook -p 9001",
     "build-storybook": "build-storybook -o .demo",
-    "deploy-storybook": "storybook-to-ghpages --existing-output-dir=.out",
+    "deploy-storybook": "npm run build-storybook && storybook-to-ghpages --existing-output-dir=.out",
     "prebuild": "rimraf dist dist-es6",
     "build": "babel src --out-dir dist-es6",
     "prepublish": "npm run build"
