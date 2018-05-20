@@ -90,4 +90,3 @@ typings/
 # built files
 .demo
 dist
-dist-es6

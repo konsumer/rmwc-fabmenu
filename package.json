@@ -5,15 +5,14 @@
   "module": "dist-es6/FabMenu.js",
   "files": [
     "FabMenu.css",
-    "dist-es6/FabMenu.js"
+    "dist/FabMenu.js"
   ],
   "scripts": {
     "start": "start-storybook -p 9001",
     "build-storybook": "build-storybook -o .demo",
-    "deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook": "storybook-to-ghpages --existing-output-dir=.out",
     "prebuild": "rimraf dist dist-es6",
     "build": "babel src --out-dir dist-es6",
-    "postinstall": "postinstall-build --only-as-dependency dist",
     "prepublish": "npm run build"
   },
   "repository": {
