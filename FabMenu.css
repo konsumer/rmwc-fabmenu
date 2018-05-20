@@ -31,6 +31,7 @@
 .FabMenu.left .menu {
   right: 100%;
   top: 0;
+  height: 100%;
   flex-direction: row-reverse;
 }
 
@@ -40,6 +41,7 @@
 
 .FabMenu.down .menu {
   flex-direction: column;
+  width: 100%;
 }
 
 .FabMenu.down .menu > * {
@@ -50,6 +52,7 @@
   left: 0;
   bottom: 100%;
   flex-direction: column-reverse;
+  width: 100%;
 }
 
 .FabMenu.up .menu > * {
