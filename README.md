@@ -22,10 +22,10 @@ import 'rmwc-fabmenu/FabMenu.css'
 
 import { Fab } from 'rmwc/Fab'
 
-export default ({onClickSettings, onClickAdd}) => (
+export default () => (
   <FabMenu>
-    <Fab mini onClick={onClickSettings}>settings</Fab>
-    <Fab mini onClick={onClickAdd}>add</Fab>
+    <Fab>settings</Fab>
+    <Fab>add</Fab>
   </FabMenu>
 )
 ```
