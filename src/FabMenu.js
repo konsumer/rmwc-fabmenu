@@ -34,7 +34,7 @@ FabMenu.propTypes = {
   /** the material-icon used when the menu is open */
   openIcon: PropTypes.string,
 
-  /** the material-icon ised when the menu is closed */
+  /** the material-icon used when the menu is closed */
   closedIcon: PropTypes.string,
 
   /** the direction for the menu to flow */
