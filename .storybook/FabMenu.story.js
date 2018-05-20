@@ -21,3 +21,6 @@ story.add('direction: right', () => <FabMenu theme='primary-bg' onClick={action(
 story.add('direction: left', () => <FabMenu theme='primary-bg' onClick={action('MENU')} style={style.left} direction='left'>{DemoMenu()}</FabMenu>)
 story.add('direction: up', () => <FabMenu theme='primary-bg' onClick={action('MENU')} style={style.up} direction='up'>{DemoMenu()}</FabMenu>)
 story.add('direction: down', () => <FabMenu theme='primary-bg' onClick={action('MENU')} style={style.down} direction='down'>{DemoMenu()}</FabMenu>)
+
+// this is good for demo image
+// story.add('demo', () => <FabMenu theme='primary-bg' onClick={action('MENU')} style={style.down} direction='down'>{DemoMenu({mini: true})}</FabMenu>)
