@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/konsumer/rmwc-fabmenu.git"
   },
-  "keywords": [],
+  "keywords": ["rmwc", "fab", "menu", "fabmenu"],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
   "license": "MIT",
   "bugs": {
