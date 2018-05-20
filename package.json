@@ -1,6 +1,6 @@
 {
   "name": "rmwc-fabmenu",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A menu with a RMWC Fab trigger",
   "module": "dist-es6/FabMenu.js",
   "scripts": {
