@@ -9,18 +9,24 @@
   ],
   "scripts": {
     "start": "start-storybook -p 9001",
+    "test": "jest",
     "build-storybook": "build-storybook -o .demo",
     "predeploy-storybook": "npm run build-storybook",
     "deploy-storybook": "storybook-to-ghpages --existing-output-dir=.demo",
     "prebuild": "rimraf dist dist",
-    "build": "babel src --out-dir dist",
+    "build": "babel src/ --out-dir dist --ignore *.test.js",
     "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/konsumer/rmwc-fabmenu.git"
   },
-  "keywords": ["rmwc", "fab", "menu", "fabmenu"],
+  "keywords": [
+    "rmwc",
+    "fab",
+    "menu",
+    "fabmenu"
+  ],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
   "license": "MIT",
   "bugs": {
@@ -30,16 +36,19 @@
   "devDependencies": {
     "@storybook/addon-info": "^3.4.5",
     "@storybook/addon-options": "^3.4.5",
+    "@storybook/addon-storyshots": "^3.4.5",
     "@storybook/react": "^3.4.5",
     "@storybook/storybook-deployer": "^2.3.0",
     "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.4.4",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-test-renderer": "^16.3.2",
     "rimraf": "^2.6.2",
     "rmwc": "^1.6.3"
   },
@@ -54,8 +63,12 @@
       "stage-0"
     ],
     "plugins": [
-      "transform-runtime",
       "transform-react-remove-prop-types"
     ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "<rootDir>/.storybook/styleMock.js"
+    }
   }
 }
